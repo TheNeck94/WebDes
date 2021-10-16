@@ -1,0 +1,5 @@
+.PlainText {
+  flex-wrap: wrap-reverse;
+  width: auto;
+  display: flex;
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: #273629;
+}
+.header {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #04330c;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  vertical-align: top;
+}
+.header-right {
+  line-height: 80px;
+  text-align: right;
+  padding-top: 5%;
+}
+/* Style the header links */
+.header a {
+  float: left;
+  color: rgb(53, 209, 79);
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  line-height: 80px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: rgb(0, 255, 0);
+  color: rgb(104, 104, 104);
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: rgb(166, 255, 0);
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}

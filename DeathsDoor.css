@@ -1,0 +1,58 @@
+.DDBanner {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+  }
+  
+  p {
+    color: darkgrey;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  div,
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    color: White;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .spoiler {
+    background: #000000;
+    padding: 5px;
+    color: transparent;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .spoiler:focus {
+    background: transparent;
+    color: white;
+  }
+  
+  q {
+    font-style: italic;
+  }
+  
+  #intro {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: green;
+    width: fit-content;
+  }
+  
+  h3 {
+    text-align: center;
+    color: white;
+  }
+  
+  

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Trajan Pro;
+    src: url(Trajan_Pro_Regular/Trajan_Pro_Regular.ttf) format("truetype");
+}
+
+p {
+    color: rgb(185, 183, 183);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+b {
+    font-size: 20px;
+}
+
+q {
+    font-style: italic;
+}
+
+h1 {
+    font-family: "Trajan Pro", serif;
+    color: White;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2 {
+    font-family: "Trajan Pro", serif;
+    color:White;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.quotedText {
+    font-family: "Trajan Pro", serif;
+    text-align: center;
+    font-style: oblique
+}
